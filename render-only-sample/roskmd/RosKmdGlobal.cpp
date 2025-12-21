@@ -78,14 +78,14 @@ NTSTATUS RosKmdGlobal::DriverEntry(__in IN DRIVER_OBJECT* pDriverObject, __in IN
     // Initialize logging
     //
     {
-        WPP_INIT_TRACING(pDriverObject, pRegistryPath);
-        RECORDER_CONFIGURE_PARAMS recorderConfigureParams;
-        RECORDER_CONFIGURE_PARAMS_INIT(&recorderConfigureParams);
-        WppRecorderConfigure(&recorderConfigureParams);
-        WPP_RECORDER_LEVEL_FILTER(ROS_TRACING_VIDPN) = FALSE;
-        WPP_RECORDER_LEVEL_FILTER(ROS_TRACING_PRESENT) = FALSE;
+        //WPP_INIT_TRACING(pDriverObject, pRegistryPath);
+        //RECORDER_CONFIGURE_PARAMS recorderConfigureParams;
+        //RECORDER_CONFIGURE_PARAMS_INIT(&recorderConfigureParams);
+        //WppRecorderConfigure(&recorderConfigureParams);
+        //WPP_RECORDER_LEVEL_FILTER(ROS_TRACING_VIDPN) = FALSE;
+        //WPP_RECORDER_LEVEL_FILTER(ROS_TRACING_PRESENT) = FALSE;
 #if DBG
-        WPP_RECORDER_LEVEL_FILTER(ROS_TRACING_DEFAULT) = TRUE;
+        //WPP_RECORDER_LEVEL_FILTER(ROS_TRACING_DEFAULT) = TRUE;
 #endif // DBG
     }
 
