@@ -9,7 +9,7 @@
 #include "precomp.h"
 
 #include "RosKmdLogging.h"
-#include "RosKmdUtil.tmh"
+//#include "RosKmdUtil.tmh"
 
 #include "RosKmdAdapter.h"
 #include "RosKmdContext.h"

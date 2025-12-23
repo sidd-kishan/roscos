@@ -1,7 +1,7 @@
 #include "precomp.h"
 
 #include "RosKmdLogging.h"
-#include "RosKmdDdi.tmh"
+//#include "RosKmdDdi.tmh"
 
 #include "RosKmd.h"
 #include "RosKmdAdapter.h"

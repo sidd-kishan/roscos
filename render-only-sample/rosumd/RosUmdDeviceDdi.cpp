@@ -1,7 +1,7 @@
 #include "precomp.h"
 
 #include "RosUmdLogging.h"
-#include "RosUmdDeviceDdi.tmh"
+//#include "RosUmdDeviceDdi.tmh"
 
 #include "RosUmdDeviceDdi.h"
 #include "RosUmdDevice.h"

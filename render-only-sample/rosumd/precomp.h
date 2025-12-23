@@ -16,8 +16,8 @@
 #include <intrin.h>
 
 #pragma warning(disable : 4324)
-#include <wdf.h>
-#pragma comment(lib, "NtosKrnl.lib")
+//#include <wdf.h>
+//#pragma comment(lib, "NtosKrnl.lib")
 
 #define DBG 1
 #define debug(...)   \

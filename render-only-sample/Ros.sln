@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36811.4 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "roskmd", "roskmd\roskmd.vcxproj", "{65CF1498-21A7-4356-8C3A-3642958DEF34}"
 EndProject
@@ -21,8 +21,6 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "roscompiler", "roscompiler\roscompiler.vcxproj", "{98E16C06-7E74-4A0C-A5E6-24219CAE527D}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CubeTest", "CubeTest\CubeTest.vcxproj", "{E462FE3C-960B-4A75-A57D-9C4705ECC8D9}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RosDriver", "rosdriver\RosDriver.vcxproj", "{593E30CD-93AD-432A-B6A1-B59F85C77ACC}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RosTest", "rostest\RosTest.vcxproj", "{5E7D4E14-5AF2-48AB-A551-33C8865A3C47}"
 EndProject
@@ -122,32 +120,6 @@ Global
 		{E462FE3C-960B-4A75-A57D-9C4705ECC8D9}.Release|x64.Build.0 = Release|x64
 		{E462FE3C-960B-4A75-A57D-9C4705ECC8D9}.Release|x86.ActiveCfg = Release|Win32
 		{E462FE3C-960B-4A75-A57D-9C4705ECC8D9}.Release|x86.Build.0 = Release|Win32
-		{593E30CD-93AD-432A-B6A1-B59F85C77ACC}.Debug|Any CPU.ActiveCfg = Debug|Win32
-		{593E30CD-93AD-432A-B6A1-B59F85C77ACC}.Debug|ARM.ActiveCfg = Debug|ARM
-		{593E30CD-93AD-432A-B6A1-B59F85C77ACC}.Debug|ARM.Build.0 = Debug|ARM
-		{593E30CD-93AD-432A-B6A1-B59F85C77ACC}.Debug|ARM.Deploy.0 = Debug|ARM
-		{593E30CD-93AD-432A-B6A1-B59F85C77ACC}.Debug|ARM64.ActiveCfg = Debug|ARM64
-		{593E30CD-93AD-432A-B6A1-B59F85C77ACC}.Debug|ARM64.Build.0 = Debug|ARM64
-		{593E30CD-93AD-432A-B6A1-B59F85C77ACC}.Debug|ARM64.Deploy.0 = Debug|ARM64
-		{593E30CD-93AD-432A-B6A1-B59F85C77ACC}.Debug|x64.ActiveCfg = Debug|x64
-		{593E30CD-93AD-432A-B6A1-B59F85C77ACC}.Debug|x64.Build.0 = Debug|x64
-		{593E30CD-93AD-432A-B6A1-B59F85C77ACC}.Debug|x64.Deploy.0 = Debug|x64
-		{593E30CD-93AD-432A-B6A1-B59F85C77ACC}.Debug|x86.ActiveCfg = Debug|Win32
-		{593E30CD-93AD-432A-B6A1-B59F85C77ACC}.Debug|x86.Build.0 = Debug|Win32
-		{593E30CD-93AD-432A-B6A1-B59F85C77ACC}.Debug|x86.Deploy.0 = Debug|Win32
-		{593E30CD-93AD-432A-B6A1-B59F85C77ACC}.Release|Any CPU.ActiveCfg = Release|Win32
-		{593E30CD-93AD-432A-B6A1-B59F85C77ACC}.Release|ARM.ActiveCfg = Release|ARM
-		{593E30CD-93AD-432A-B6A1-B59F85C77ACC}.Release|ARM.Build.0 = Release|ARM
-		{593E30CD-93AD-432A-B6A1-B59F85C77ACC}.Release|ARM.Deploy.0 = Release|ARM
-		{593E30CD-93AD-432A-B6A1-B59F85C77ACC}.Release|ARM64.ActiveCfg = Release|ARM64
-		{593E30CD-93AD-432A-B6A1-B59F85C77ACC}.Release|ARM64.Build.0 = Release|ARM64
-		{593E30CD-93AD-432A-B6A1-B59F85C77ACC}.Release|ARM64.Deploy.0 = Release|ARM64
-		{593E30CD-93AD-432A-B6A1-B59F85C77ACC}.Release|x64.ActiveCfg = Release|x64
-		{593E30CD-93AD-432A-B6A1-B59F85C77ACC}.Release|x64.Build.0 = Release|x64
-		{593E30CD-93AD-432A-B6A1-B59F85C77ACC}.Release|x64.Deploy.0 = Release|x64
-		{593E30CD-93AD-432A-B6A1-B59F85C77ACC}.Release|x86.ActiveCfg = Release|Win32
-		{593E30CD-93AD-432A-B6A1-B59F85C77ACC}.Release|x86.Build.0 = Release|Win32
-		{593E30CD-93AD-432A-B6A1-B59F85C77ACC}.Release|x86.Deploy.0 = Release|Win32
 		{5E7D4E14-5AF2-48AB-A551-33C8865A3C47}.Debug|Any CPU.ActiveCfg = Debug|Win32
 		{5E7D4E14-5AF2-48AB-A551-33C8865A3C47}.Debug|ARM.ActiveCfg = Debug|ARM
 		{5E7D4E14-5AF2-48AB-A551-33C8865A3C47}.Debug|ARM.Build.0 = Debug|ARM
@@ -167,5 +139,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F2EF805-39FF-4192-9A30-689FB0E26FBF}
 	EndGlobalSection
 EndGlobal

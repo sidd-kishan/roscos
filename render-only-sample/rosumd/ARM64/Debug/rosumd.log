@@ -1,22 +1,53 @@
-﻿  Building 'rosumd' with toolset 'WindowsUserModeDriver10.0' and the 'Universal' target platform.
-  Stamping ARM64\Debug\Ros.inf
-  Stamping [Version] section with DriverVer=08/30/2021,23.45.22.269
-  precomp.cpp
+﻿  precomp.cpp
   pixlib.cpp
   RosUmd.cpp
   RosUmdAdapter.cpp
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\RosKmdLogging.h(266,17): warning C4100: 'format': unreferenced parameter
+  (compiling source file '/RosUmd.cpp')
+  
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\RosKmdLogging.h(265,17): warning C4100: 'levelStr': unreferenced parameter
+  (compiling source file '/RosUmd.cpp')
+  
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\RosKmdLogging.h(264,14): warning C4100: 'line': unreferenced parameter
+  (compiling source file '/RosUmd.cpp')
+  
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\RosKmdLogging.h(263,17): warning C4100: 'file': unreferenced parameter
+  (compiling source file '/RosUmd.cpp')
+  
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\rosumd\RosUmd.cpp(29,13): warning C4003: not enough arguments for function-like macro invocation 'WPP_INIT_TRACING'
+  (compiling source file '/RosUmd.cpp')
+  
   RosUmdCommandBuffer.cpp
   RosUmdDevice.cpp
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\RosKmdLogging.h(266,17): warning C4100: 'format': unreferenced parameter
+  (compiling source file '/RosUmdDevice.cpp')
+  
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\RosKmdLogging.h(265,17): warning C4100: 'levelStr': unreferenced parameter
+  (compiling source file '/RosUmdDevice.cpp')
+  
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\RosKmdLogging.h(264,14): warning C4100: 'line': unreferenced parameter
+  (compiling source file '/RosUmdDevice.cpp')
+  
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\RosKmdLogging.h(263,17): warning C4100: 'file': unreferenced parameter
+  (compiling source file '/RosUmdDevice.cpp')
+  
   RosUmdDeviceDdi.cpp
   RosUmdResource.cpp
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\RosKmdLogging.h(266,17): warning C4100: 'format': unreferenced parameter
+  (compiling source file '/RosUmdResource.cpp')
+  
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\RosKmdLogging.h(265,17): warning C4100: 'levelStr': unreferenced parameter
+  (compiling source file '/RosUmdResource.cpp')
+  
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\RosKmdLogging.h(264,14): warning C4100: 'line': unreferenced parameter
+  (compiling source file '/RosUmdResource.cpp')
+  
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\RosKmdLogging.h(263,17): warning C4100: 'file': unreferenced parameter
+  (compiling source file '/RosUmdResource.cpp')
+  
   RosUmdShader.cpp
   RosUmdUtil.cpp
   RosUmdLogging.cpp
   Generating Code...
-     Creating library C:\Users\Alastair\Documents\Visual Studio 2019\Projects\rosumd2\ARM64\Debug\rosumd.lib and object C:\Users\Alastair\Documents\Visual Studio 2019\Projects\rosumd2\ARM64\Debug\rosumd.exp
-  rosumd.vcxproj -> C:\Users\Alastair\Documents\Visual Studio 2019\Projects\rosumd2\ARM64\Debug\rosumd.dll
-  Done Adding Additional Store
-  Successfully signed: C:\Users\Alastair\Documents\Visual Studio 2019\Projects\rosumd2\ARM64\Debug\rosumd.dll
-  
-  Inf2Cat task was skipped as there were no inf files to process
-  
+     Creating library C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\ARM64\Debug\rosumd.lib and object C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\ARM64\Debug\rosumd.exp
+  rosumd.vcxproj -> C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\ARM64\Debug\rosumd.dll

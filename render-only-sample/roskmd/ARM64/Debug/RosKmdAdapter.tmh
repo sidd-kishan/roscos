@@ -1,5 +1,5 @@
-// 22da6affddb8d85eb01d0e3f86fc62af Generated file. Do not edit.
-// File created by WPP compiler version 10.0.19041
+// dcdfc47cda76cc414a8b26f503a6226e Generated file. Do not edit.
+// File created by WPP compiler version 10.0.26100
 // from template km-default.tpl
 
 #pragma once
@@ -7575,29 +7575,77 @@ WPP_RECORDER_SF_sDiLP(
 
 // Functions
 #undef DoDebugTrace
+#ifdef __INTELLISENSE__
+#define DoDebugTrace(TRACELEVEL, MSG, ...) ((void)(MSG, ## __VA_ARGS__))
+#else
 #define DoDebugTrace WPP_(CALL)
+#endif
 #undef DoTraceMessage
+#ifdef __INTELLISENSE__
+#define DoTraceMessage(LEVEL, MSG, ...) ((void)(MSG, ## __VA_ARGS__))
+#else
 #define DoTraceMessage WPP_(CALL)
-#undef ROS_ASSERT
-#define ROS_ASSERT WPP_(CALL)
-#undef ROS_CRITICAL_ASSERT
-#define ROS_CRITICAL_ASSERT WPP_(CALL)
+#endif
 #undef ROS_LOG_ASSERTION
+#ifdef __INTELLISENSE__
+#define ROS_LOG_ASSERTION(MSG, ...) ((void)(MSG, ## __VA_ARGS__))
+#else
 #define ROS_LOG_ASSERTION WPP_(CALL)
+#endif
 #undef ROS_LOG_CRITICAL_ERROR
+#ifdef __INTELLISENSE__
+#define ROS_LOG_CRITICAL_ERROR(MSG, ...) ((void)(MSG, ## __VA_ARGS__))
+#else
 #define ROS_LOG_CRITICAL_ERROR WPP_(CALL)
+#endif
 #undef ROS_LOG_ERROR
+#ifdef __INTELLISENSE__
+#define ROS_LOG_ERROR(MSG, ...) ((void)(MSG, ## __VA_ARGS__))
+#else
 #define ROS_LOG_ERROR WPP_(CALL)
+#endif
 #undef ROS_LOG_INFORMATION
+#ifdef __INTELLISENSE__
+#define ROS_LOG_INFORMATION(MSG, ...) ((void)(MSG, ## __VA_ARGS__))
+#else
 #define ROS_LOG_INFORMATION WPP_(CALL)
+#endif
 #undef ROS_LOG_LOW_MEMORY
+#ifdef __INTELLISENSE__
+#define ROS_LOG_LOW_MEMORY(MSG, ...) ((void)(MSG, ## __VA_ARGS__))
+#else
 #define ROS_LOG_LOW_MEMORY WPP_(CALL)
+#endif
 #undef ROS_LOG_TRACE
+#ifdef __INTELLISENSE__
+#define ROS_LOG_TRACE(MSG, ...) ((void)(MSG, ## __VA_ARGS__))
+#else
 #define ROS_LOG_TRACE WPP_(CALL)
+#endif
 #undef ROS_LOG_WARNING
+#ifdef __INTELLISENSE__
+#define ROS_LOG_WARNING(MSG, ...) ((void)(MSG, ## __VA_ARGS__))
+#else
 #define ROS_LOG_WARNING WPP_(CALL)
+#endif
 #undef ROS_TRACE_EVENTS
+#ifdef __INTELLISENSE__
+#define ROS_TRACE_EVENTS(LEVEL, FLAGS, MSG, ...) ((void)(MSG, ## __VA_ARGS__))
+#else
 #define ROS_TRACE_EVENTS WPP_(CALL)
+#endif
+#undef ROS_ASSERT
+#ifdef __INTELLISENSE__
+#define ROS_ASSERT(ROS_ASSERT_EXP) ((void)0)
+#else
+#define ROS_ASSERT WPP_(CALL)
+#endif
+#undef ROS_CRITICAL_ASSERT
+#ifdef __INTELLISENSE__
+#define ROS_CRITICAL_ASSERT(ROS_CRIT_ASSERT_EXP) ((void)0)
+#else
+#define ROS_CRITICAL_ASSERT WPP_(CALL)
+#endif
 
 #ifdef __cplusplus
 } // extern "C"

@@ -8,7 +8,7 @@
 #include "precomp.h"
 
 #include "RosUmdLogging.h"
-#include "RosUmdShader.tmh"
+//#include "RosUmdShader.tmh"
 
 #include "RosUmdDevice.h"
 #include "RosUmdShader.h"

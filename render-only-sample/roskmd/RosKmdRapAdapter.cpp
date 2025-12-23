@@ -1,7 +1,7 @@
 #include "precomp.h"
 
 #include "RosKmdLogging.h"
-#include "RosKmdRapAdapter.tmh"
+//#include "RosKmdRapAdapter.tmh"
 
 #include "RosKmdRapAdapter.h"
 #include "RosGpuCommand.h"

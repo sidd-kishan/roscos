@@ -2,7 +2,7 @@
 #include "precomp.h"
 
 #include "RosUmdLogging.h"
-#include "pixlib.tmh"
+//#include "pixlib.tmh"
 
 #include "pixel.cpp"
 

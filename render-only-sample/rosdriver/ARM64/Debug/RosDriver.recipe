@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\ARM64\Debug\rosumd.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\ARM64\Debug\roskmd</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\ARM64\Debug\RosDriver</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

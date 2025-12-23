@@ -1,5 +1,5 @@
-// 5942aa12390ec89612acfbbea69c66c0 Generated file. Do not edit.
-// File created by WPP compiler version 10.0.19041
+// c58544f71a882715efa10666f517f836 Generated file. Do not edit.
+// File created by WPP compiler version 10.0.26100
 // from template km-default.tpl
 
 #pragma once
@@ -601,7 +601,7 @@ extern "C" {
 #else // WPP_USER_MSG_GUID
 # define WPP_ANNOTATE_Vc4Debug_cpp32_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"e41e0f78-eb5c-34f6-0d37-029ab2fb4cf3 roskmd // SRC=" _WPPW(File) \
+    L"aeff1a7d-48ba-3f98-c4cc-305c1e2865dd roskmd // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 10 \"%0 [%10!s! @ %11!u!] ERROR :pfnAcquireFirstModeInfo() failed. (status = %12!s!, MonitorModesPtr->hMonitorSourceModeSet = %13!p!)\" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=ROS_TRACING_DEFAULT" \
@@ -649,7 +649,7 @@ extern "C" {
 #else // WPP_USER_MSG_GUID
 # define WPP_ANNOTATE_Vc4Debug_cpp41_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"e41e0f78-eb5c-34f6-0d37-029ab2fb4cf3 roskmd // SRC=" _WPPW(File) \
+    L"aeff1a7d-48ba-3f98-c4cc-305c1e2865dd roskmd // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 11 \"%0 [%10!s! @ %11!u!] TRACE :Dumping monitor source mode. (Id = %12!d!, ColorBasis = %13!d!, Origin = %14!d!, Preference = %15!d!)\" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=ROS_TRACING_DEFAULT" \
@@ -701,7 +701,7 @@ extern "C" {
 #else // WPP_USER_MSG_GUID
 # define WPP_ANNOTATE_Vc4Debug_cpp48_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"e41e0f78-eb5c-34f6-0d37-029ab2fb4cf3 roskmd // SRC=" _WPPW(File) \
+    L"aeff1a7d-48ba-3f98-c4cc-305c1e2865dd roskmd // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 12 \"%0 [%10!s! @ %11!u!] TRACE :VideoSignalInfo: VideoStandard = %12!d!, TotalSize = (%13!d!,%14!d!), ActiveSize = (%15!d!,%16!d!), VSyncFreq = %17!d!, HSyncFreq = %18!d!, PixelRate = %19!Id!\" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=ROS_TRACING_DEFAULT" \
@@ -743,8 +743,8 @@ extern "C" {
     L"sourceModePtr->VideoSignalInfo.TotalSize.cy, ItemLong -- 14" , \
     L"sourceModePtr->VideoSignalInfo.ActiveSize.cx, ItemLong -- 15" , \
     L"sourceModePtr->VideoSignalInfo.ActiveSize.cy, ItemLong -- 16" , \
-    L"sourceModePtr->VideoSignalInfo.VSyncFreq.Numerator /                 sourceModePtr->VideoSignalInfo.VSyncFreq.Denominator, ItemLong -- 17" , \
-    L"sourceModePtr->VideoSignalInfo.HSyncFreq.Numerator /                 sourceModePtr->VideoSignalInfo.HSyncFreq.Denominator, ItemLong -- 18" , \
+    L"sourceModePtr->VideoSignalInfo.VSyncFreq.Numerator /                  sourceModePtr->VideoSignalInfo.VSyncFreq.Denominator, ItemLong -- 17" , \
+    L"sourceModePtr->VideoSignalInfo.HSyncFreq.Numerator /                  sourceModePtr->VideoSignalInfo.HSyncFreq.Denominator, ItemLong -- 18" , \
     L"sourceModePtr->VideoSignalInfo.PixelRate, ItemPtr -- 19" , \
     L"}")
 #endif // WPP_PUBLIC_ANNOT_Vc4Debug_cpp48
@@ -761,7 +761,7 @@ extern "C" {
 #else // WPP_USER_MSG_GUID
 # define WPP_ANNOTATE_Vc4Debug_cpp78_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"e41e0f78-eb5c-34f6-0d37-029ab2fb4cf3 roskmd // SRC=" _WPPW(File) \
+    L"aeff1a7d-48ba-3f98-c4cc-305c1e2865dd roskmd // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 13 \"%0 [%10!s! @ %11!u!] ERROR :pfnAcquireNextModeInfo() failed. (status = %12!s!, MonitorModesPtr->hMonitorSourceModeSet = %13!p!)\" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=ROS_TRACING_DEFAULT" \
@@ -809,7 +809,7 @@ extern "C" {
 #else // WPP_USER_MSG_GUID
 # define WPP_ANNOTATE_Vc4Debug_cpp108_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"e41e0f78-eb5c-34f6-0d37-029ab2fb4cf3 roskmd // SRC=" _WPPW(File) \
+    L"aeff1a7d-48ba-3f98-c4cc-305c1e2865dd roskmd // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 14 \"%0 [%10!s! @ %11!u!] ASSERTION :vidPnInterfacePtr->pfnAcquireSourceModeSet failed. (status = %12!s!)\" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=ROS_TRACING_DEBUG" \
@@ -855,7 +855,7 @@ extern "C" {
 #else // WPP_USER_MSG_GUID
 # define WPP_ANNOTATE_Vc4Debug_cpp128_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"e41e0f78-eb5c-34f6-0d37-029ab2fb4cf3 roskmd // SRC=" _WPPW(File) \
+    L"aeff1a7d-48ba-3f98-c4cc-305c1e2865dd roskmd // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 15 \"%0 [%10!s! @ %11!u!] ASSERTION :smsInterfacePtr->pfnAcquireFirstModeInfo() failed. (status = %12!s!)\" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=ROS_TRACING_DEBUG" \
@@ -901,7 +901,7 @@ extern "C" {
 #else // WPP_USER_MSG_GUID
 # define WPP_ANNOTATE_Vc4Debug_cpp191_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"e41e0f78-eb5c-34f6-0d37-029ab2fb4cf3 roskmd // SRC=" _WPPW(File) \
+    L"aeff1a7d-48ba-3f98-c4cc-305c1e2865dd roskmd // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 16 \"%0 [%10!s! @ %11!u!] ASSERTION :smsInterfacePtr->pfnAcquireNextModeInfo() failed. (status = %12!s!)\" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=ROS_TRACING_DEBUG" \
@@ -947,7 +947,7 @@ extern "C" {
 #else // WPP_USER_MSG_GUID
 # define WPP_ANNOTATE_Vc4Debug_cpp220_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"e41e0f78-eb5c-34f6-0d37-029ab2fb4cf3 roskmd // SRC=" _WPPW(File) \
+    L"aeff1a7d-48ba-3f98-c4cc-305c1e2865dd roskmd // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 17 \"%0 [%10!s! @ %11!u!] ASSERTION :VidPnInterfacePtr->pfnAcquireTargetModeSet() failed. (status = %12!s!)\" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=ROS_TRACING_DEBUG" \
@@ -993,7 +993,7 @@ extern "C" {
 #else // WPP_USER_MSG_GUID
 # define WPP_ANNOTATE_Vc4Debug_cpp240_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"e41e0f78-eb5c-34f6-0d37-029ab2fb4cf3 roskmd // SRC=" _WPPW(File) \
+    L"aeff1a7d-48ba-3f98-c4cc-305c1e2865dd roskmd // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 18 \"%0 [%10!s! @ %11!u!] ASSERTION :tmsInterfacePtr->pfnAcquireFirstModeInfo() failed. (status = %12!s!)\" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=ROS_TRACING_DEBUG" \
@@ -1039,7 +1039,7 @@ extern "C" {
 #else // WPP_USER_MSG_GUID
 # define WPP_ANNOTATE_Vc4Debug_cpp292_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"e41e0f78-eb5c-34f6-0d37-029ab2fb4cf3 roskmd // SRC=" _WPPW(File) \
+    L"aeff1a7d-48ba-3f98-c4cc-305c1e2865dd roskmd // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 19 \"%0 [%10!s! @ %11!u!] ASSERTION :tmsInterfacePtr->pfnAcquireNextModeInfo() failed. (status = %12!s!)\" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=ROS_TRACING_DEBUG" \
@@ -1085,7 +1085,7 @@ extern "C" {
 #else // WPP_USER_MSG_GUID
 # define WPP_ANNOTATE_Vc4Debug_cpp330_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"e41e0f78-eb5c-34f6-0d37-029ab2fb4cf3 roskmd // SRC=" _WPPW(File) \
+    L"aeff1a7d-48ba-3f98-c4cc-305c1e2865dd roskmd // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 20 \"%0 [%10!s! @ %11!u!] ASSERTION :DxgkCbQueryVidPnInterface() failed. (status = %12!s!, VidPnHandle = %13!p!, this = %14!p!)\" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=ROS_TRACING_DEBUG" \
@@ -1135,7 +1135,7 @@ extern "C" {
 #else // WPP_USER_MSG_GUID
 # define WPP_ANNOTATE_Vc4Debug_cpp345_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"e41e0f78-eb5c-34f6-0d37-029ab2fb4cf3 roskmd // SRC=" _WPPW(File) \
+    L"aeff1a7d-48ba-3f98-c4cc-305c1e2865dd roskmd // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 21 \"%0 [%10!s! @ %11!u!] ASSERTION :pfnGetTopology() failed. (status = %12!s!, VidPnHandle = %13!p!, vidPnInterfacePtr = %14!p!)\" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=ROS_TRACING_DEBUG" \
@@ -1185,7 +1185,7 @@ extern "C" {
 #else // WPP_USER_MSG_GUID
 # define WPP_ANNOTATE_Vc4Debug_cpp359_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"e41e0f78-eb5c-34f6-0d37-029ab2fb4cf3 roskmd // SRC=" _WPPW(File) \
+    L"aeff1a7d-48ba-3f98-c4cc-305c1e2865dd roskmd // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 22 \"%0 [%10!s! @ %11!u!] ASSERTION :Failed to get first path info from vidpn topology. (status = %12!s!, VidPnHandle = %13!p!, vidPnTopologyHandle = %14!p!)\" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=ROS_TRACING_DEBUG" \
@@ -1235,7 +1235,7 @@ extern "C" {
 #else // WPP_USER_MSG_GUID
 # define WPP_ANNOTATE_Vc4Debug_cpp432_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"e41e0f78-eb5c-34f6-0d37-029ab2fb4cf3 roskmd // SRC=" _WPPW(File) \
+    L"aeff1a7d-48ba-3f98-c4cc-305c1e2865dd roskmd // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 23 \"%0 [%10!s! @ %11!u!] ASSERTION :pfnAcquireNextPathInfo() failed. (status = %12!s!, VidPnHandle = %13!p!, vidPnTopologyHandle = %14!p!)\" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=ROS_TRACING_DEBUG" \
@@ -1289,8 +1289,8 @@ WPP_LOCAL_MSG_GUID(WPP_USER_MSG_GUID);
 
 #else // WPP_USER_MSG_GUID
 
-#define WPP_LOCAL_TraceGuids WPP_e41e0f78eb5c34f60d37029ab2fb4cf3_Traceguids
-extern const __declspec(selectany) GUID WPP_LOCAL_TraceGuids[] = { {0xe41e0f78,0xeb5c,0x34f6,{0x0d,0x37,0x02,0x9a,0xb2,0xfb,0x4c,0xf3}}, };
+#define WPP_LOCAL_TraceGuids WPP_aeff1a7d48ba3f98c4cc305c1e2865dd_Traceguids
+extern const __declspec(selectany) GUID WPP_LOCAL_TraceGuids[] = { {0xaeff1a7d,0x48ba,0x3f98,{0xc4,0xcc,0x30,0x5c,0x1e,0x28,0x65,0xdd}}, };
 
 #endif // WPP_USER_MSG_GUID
 
@@ -2773,29 +2773,77 @@ WPP_RECORDER_SF_sDdqq(
 
 // Functions
 #undef DoDebugTrace
+#ifdef __INTELLISENSE__
+#define DoDebugTrace(TRACELEVEL, MSG, ...) ((void)(MSG, ## __VA_ARGS__))
+#else
 #define DoDebugTrace WPP_(CALL)
+#endif
 #undef DoTraceMessage
+#ifdef __INTELLISENSE__
+#define DoTraceMessage(LEVEL, MSG, ...) ((void)(MSG, ## __VA_ARGS__))
+#else
 #define DoTraceMessage WPP_(CALL)
-#undef ROS_ASSERT
-#define ROS_ASSERT WPP_(CALL)
-#undef ROS_CRITICAL_ASSERT
-#define ROS_CRITICAL_ASSERT WPP_(CALL)
+#endif
 #undef ROS_LOG_ASSERTION
+#ifdef __INTELLISENSE__
+#define ROS_LOG_ASSERTION(MSG, ...) ((void)(MSG, ## __VA_ARGS__))
+#else
 #define ROS_LOG_ASSERTION WPP_(CALL)
+#endif
 #undef ROS_LOG_CRITICAL_ERROR
+#ifdef __INTELLISENSE__
+#define ROS_LOG_CRITICAL_ERROR(MSG, ...) ((void)(MSG, ## __VA_ARGS__))
+#else
 #define ROS_LOG_CRITICAL_ERROR WPP_(CALL)
+#endif
 #undef ROS_LOG_ERROR
+#ifdef __INTELLISENSE__
+#define ROS_LOG_ERROR(MSG, ...) ((void)(MSG, ## __VA_ARGS__))
+#else
 #define ROS_LOG_ERROR WPP_(CALL)
+#endif
 #undef ROS_LOG_INFORMATION
+#ifdef __INTELLISENSE__
+#define ROS_LOG_INFORMATION(MSG, ...) ((void)(MSG, ## __VA_ARGS__))
+#else
 #define ROS_LOG_INFORMATION WPP_(CALL)
+#endif
 #undef ROS_LOG_LOW_MEMORY
+#ifdef __INTELLISENSE__
+#define ROS_LOG_LOW_MEMORY(MSG, ...) ((void)(MSG, ## __VA_ARGS__))
+#else
 #define ROS_LOG_LOW_MEMORY WPP_(CALL)
+#endif
 #undef ROS_LOG_TRACE
+#ifdef __INTELLISENSE__
+#define ROS_LOG_TRACE(MSG, ...) ((void)(MSG, ## __VA_ARGS__))
+#else
 #define ROS_LOG_TRACE WPP_(CALL)
+#endif
 #undef ROS_LOG_WARNING
+#ifdef __INTELLISENSE__
+#define ROS_LOG_WARNING(MSG, ...) ((void)(MSG, ## __VA_ARGS__))
+#else
 #define ROS_LOG_WARNING WPP_(CALL)
+#endif
 #undef ROS_TRACE_EVENTS
+#ifdef __INTELLISENSE__
+#define ROS_TRACE_EVENTS(LEVEL, FLAGS, MSG, ...) ((void)(MSG, ## __VA_ARGS__))
+#else
 #define ROS_TRACE_EVENTS WPP_(CALL)
+#endif
+#undef ROS_ASSERT
+#ifdef __INTELLISENSE__
+#define ROS_ASSERT(ROS_ASSERT_EXP) ((void)0)
+#else
+#define ROS_ASSERT WPP_(CALL)
+#endif
+#undef ROS_CRITICAL_ASSERT
+#ifdef __INTELLISENSE__
+#define ROS_CRITICAL_ASSERT(ROS_CRIT_ASSERT_EXP) ((void)0)
+#else
+#define ROS_CRITICAL_ASSERT WPP_(CALL)
+#endif
 
 #ifdef __cplusplus
 } // extern "C"

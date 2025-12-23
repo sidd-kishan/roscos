@@ -8,7 +8,7 @@
 #include "precomp.h"
 
 #include "RosUmdLogging.h"
-#include "RosUmdResource.tmh"
+//#include "RosUmdResource.tmh"
 
 #include "RosUmdDevice.h"
 #include "RosUmdResource.h"
@@ -17,6 +17,7 @@
 #include "RosContext.h"
 
 #include "Vc4Hw.h"
+#include "../roskmd/RosKmdLogging.h"
 
 RosUmdResource::RosUmdResource() :
     m_signature(_SIGNATURE::CONSTRUCTED),

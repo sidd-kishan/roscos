@@ -1,7 +1,7 @@
 #include "precomp.h"
 
 #include "RosUmdLogging.h"
-#include "RosUmdAdapter.tmh"
+//#include "RosUmdAdapter.tmh"
 
 #include "RosUmdAdapter.h"
 #include "RosUmdDevice.h"
@@ -243,7 +243,7 @@ HRESULT APIENTRY RosUmdAdapter::GetCaps(
 //----------------------------------------------------------------------------------------------------------------------------------
 HRESULT APIENTRY OpenAdapter10_2( D3D10DDIARG_OPENADAPTER* pArgs )
 {
-    debug("[CALL]: HRESULT APIENTRY OpenAdapter10_2");
+    //debug("[CALL]: HRESULT APIENTRY OpenAdapter10_2");
     /*
     RosUmdAdapter* pAdapter = new RosUmdAdapter;
     if( NULL == pAdapter )

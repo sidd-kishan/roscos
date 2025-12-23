@@ -40,14 +40,14 @@
     <Configuration Condition="'$(Configuration)' == ''">Debug</Configuration>
     <Platform Condition="'$(Platform)' == ''">ARM</Platform>
     <RootNamespace>rosumd</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <!-- Packaging is performed by the rosdriver project -->
     <SupportsPackaging>false</SupportsPackaging>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Label="Configuration">
     <TargetVersion>Windows10</TargetVersion>
-    <PlatformToolset>WindowsUserModeDriver10.0</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UMDF_VERSION_MAJOR>2</UMDF_VERSION_MAJOR>
     <DriverTargetPlatform>Universal</DriverTargetPlatform>
@@ -85,12 +85,12 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>precomp.h</PrecompiledHeaderFile>
       <WarningLevel>Level4</WarningLevel>
-      <TreatWarningAsError>true</TreatWarningAsError>
+      <TreatWarningAsError>false</TreatWarningAsError>
       <ForcedIncludeFiles />
       <SDLCheck>true</SDLCheck>
       <ExceptionHandling>Sync</ExceptionHandling>
       <DisableSpecificWarnings>4201;</DisableSpecificWarnings>
-      <PreprocessorDefinitions>VC4=1;_USE_DECLSPECS_FOR_SAL=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>VC4=1;_USE_DECLSPECS_FOR_SAL=1;isumdd_precomp_h_rosumd=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>..\roscompiler;..\roscommon;$(KM_IncludePath);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <WppEnabled>true</WppEnabled>
       <WppDllMacro>true</WppDllMacro>
@@ -117,7 +117,7 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>msvcrtd.lib;vcruntimed.lib;ucrtd.lib;%(AdditionalDependencies);OneCoreUAP.lib</AdditionalDependencies>
+      <AdditionalDependencies>msvcrtd.lib;vcruntimed.lib;ucrtd.lib;%(AdditionalDependencies);OneCoreUAP.lib;kernel32.lib;user32.lib;advapi32.lib;setupapi.lib</AdditionalDependencies>
       <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
       <IgnoreSpecificDefaultLibraries Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">libcmt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
     </Link>

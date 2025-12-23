@@ -2,7 +2,7 @@
 #include "precomp.h"
 
 #include "RosKmdLogging.h"
-#include "RosKmdAdapter.tmh"
+//#include "RosKmdAdapter.tmh"
 
 #include "RosKmd.h"
 #include "RosKmdAdapter.h"

@@ -1,0 +1,14 @@
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\precomp.cpp;C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\ARM64\Debug\precomp.obj
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\RosKmdAcpi.cpp;C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\ARM64\Debug\RosKmdAcpi.obj
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\RosKmdAdapter.cpp;C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\ARM64\Debug\RosKmdAdapter.obj
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\RosKmdContext.cpp;C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\ARM64\Debug\RosKmdContext.obj
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\RosKmdDdi.cpp;C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\ARM64\Debug\RosKmdDdi.obj
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\RosKmdDevice.cpp;C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\ARM64\Debug\RosKmdDevice.obj
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\RosKmdGlobal.cpp;C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\ARM64\Debug\RosKmdGlobal.obj
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\RosKmdRapAdapter.cpp;C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\ARM64\Debug\RosKmdRapAdapter.obj
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\RosKmdSoftAdapter.cpp;C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\ARM64\Debug\RosKmdSoftAdapter.obj
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\RosKmdUtil.cpp;C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\ARM64\Debug\RosKmdUtil.obj
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\RosKmdPower.cpp;C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\ARM64\Debug\RosKmdPower.obj
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\RosKmdLogging.cpp;C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\ARM64\Debug\RosKmdLogging.obj
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\Vc4Debug.cpp;C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\ARM64\Debug\Vc4Debug.obj
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\Vc4Display.cpp;C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\ARM64\Debug\Vc4Display.obj

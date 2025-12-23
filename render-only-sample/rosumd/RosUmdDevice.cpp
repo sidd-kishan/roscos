@@ -8,7 +8,7 @@
 #include "precomp.h"
 
 #include "RosUmdLogging.h"
-#include "RosUmdDevice.tmh"
+//#include "RosUmdDevice.tmh"
 
 #include "RosUmdDevice.h"
 #include "RosUmdResource.h"
@@ -35,6 +35,7 @@
 // #define NV_SHADER 1
 
 #endif
+#include "../roskmd/RosKmdLogging.h"
 
 static
 BOOLEAN _IntersectRect(RECT* CONST pDst, RECT CONST* CONST pSrc1, RECT CONST* CONST pSrc2)

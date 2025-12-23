@@ -1,0 +1,8 @@
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roscompiler\precomp.cpp;C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roscompiler\ARM64\Debug\precomp.obj
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roscompiler\DisasmBase.cpp;C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roscompiler\ARM64\Debug\DisasmBase.obj
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roscompiler\HLSLBinary.cpp;C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roscompiler\ARM64\Debug\HLSLBinary.obj
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roscompiler\HLSLDisasm.cpp;C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roscompiler\ARM64\Debug\HLSLDisasm.obj
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roscompiler\roscompiler.cpp;C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roscompiler\ARM64\Debug\roscompiler.obj
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roscompiler\Vc4Disasm.cpp;C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roscompiler\ARM64\Debug\Vc4Disasm.obj
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roscompiler\Vc4Emit.cpp;C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roscompiler\ARM64\Debug\Vc4Emit.obj
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roscompiler\Vc4Shader.cpp;C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roscompiler\ARM64\Debug\Vc4Shader.obj

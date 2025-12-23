@@ -1,0 +1,11 @@
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\rosumd\precomp.cpp;C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\rosumd\ARM64\Debug\precomp.obj
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\rosumd\pixlib.cpp;C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\rosumd\ARM64\Debug\pixlib.obj
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\rosumd\RosUmd.cpp;C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\rosumd\ARM64\Debug\RosUmd.obj
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\rosumd\RosUmdAdapter.cpp;C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\rosumd\ARM64\Debug\RosUmdAdapter.obj
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\rosumd\RosUmdCommandBuffer.cpp;C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\rosumd\ARM64\Debug\RosUmdCommandBuffer.obj
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\rosumd\RosUmdDevice.cpp;C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\rosumd\ARM64\Debug\RosUmdDevice.obj
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\rosumd\RosUmdDeviceDdi.cpp;C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\rosumd\ARM64\Debug\RosUmdDeviceDdi.obj
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\rosumd\RosUmdResource.cpp;C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\rosumd\ARM64\Debug\RosUmdResource.obj
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\rosumd\RosUmdShader.cpp;C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\rosumd\ARM64\Debug\RosUmdShader.obj
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\rosumd\RosUmdUtil.cpp;C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\rosumd\ARM64\Debug\RosUmdUtil.obj
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\rosumd\RosUmdLogging.cpp;C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\rosumd\ARM64\Debug\RosUmdLogging.obj

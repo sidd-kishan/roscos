@@ -31,15 +31,17 @@
 //
 // Author: Assembled to address the user's build issues
 //
-
+#ifndef isumdd_precomp_h_rosumd
 #ifndef _ROSLOGGING_FALLBACK_FIXED_H_
 #define _ROSLOGGING_FALLBACK_FIXED_H_ 1
+
 
 // Kernel-mode headers
 #include <ntddk.h>
 #include <wdm.h>
 #include <ntstrsafe.h>
 #include <stdarg.h>
+
 
 #ifdef __cplusplus
 extern "C" {
@@ -113,15 +115,7 @@ extern "C" {
 #define WPP_CLEANUP() ((void)0)
 #endif
 
-// Minimal RECORDER_CONFIGURE_PARAMS and initializer. The code in RosKmdGlobal.cpp
-// declares a local variable named 'recorderConfigureParams' and expects to call
-// RECORDER_CONFIGURE_PARAMS_INIT(recorderConfigureParams).
-#ifndef RECORDER_CONFIGURE_PARAMS
-    typedef struct _RECORDER_CONFIGURE_PARAMS {
-        ULONG LevelFilter;
-        // Note: real WPP has many more fields; we only need LevelFilter here.
-    } RECORDER_CONFIGURE_PARAMS;
-#endif
+
 
     // Important: use '.' because the caller passes the struct (not a pointer)
 #ifndef RECORDER_CONFIGURE_PARAMS_INIT
@@ -262,3 +256,20 @@ static inline int RosLog(
 #endif // ROS_LOG_ERROR
 
 #endif // _ROSLOGGING_FALLBACK_FIXED_H_
+#endif
+
+#ifdef isumdd_precomp_h_rosumd
+static inline int RosLog(
+    const char* file,
+    unsigned line,
+    const char* levelStr,
+    const char* format,
+    ...)
+{
+    return 0;
+}
+#define ROS_LOG_TRACE(Format, ...)    RosLog(__FILE__, __LINE__, "TRACE", Format, ##__VA_ARGS__)
+#define ROS_LOG_ERROR(Format, ...)    RosLog(__FILE__, __LINE__, "ERROR", Format, ##__VA_ARGS__)
+#define WPP_CLEANUP() ((void)0)
+#define WPP_INIT_TRACING(DeviceObject, RegistryPath) ((void)0)
+#endif

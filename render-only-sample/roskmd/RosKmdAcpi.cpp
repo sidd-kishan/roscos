@@ -1,7 +1,7 @@
 #include "precomp.h"
 
 #include "RosKmdLogging.h"
-#include "RosKmdAcpi.tmh"
+//#include "RosKmdAcpi.tmh"
 
 #include "RosKmdAcpi.h"
 

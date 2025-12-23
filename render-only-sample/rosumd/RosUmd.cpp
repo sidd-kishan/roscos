@@ -3,9 +3,10 @@
 
 #undef WPP_MACRO_USE_KM_VERSION_FOR_UM
 #include "RosUmdLogging.h"
-#include "RosUmd.tmh"
+//#include "RosUmd.tmh"
 
 #include "roscompiler.h"
+#include "../roskmd/RosKmdLogging.h"
 
 // TODO[bhouse] Turn ApiValidator back on
 

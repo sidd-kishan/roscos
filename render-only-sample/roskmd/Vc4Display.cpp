@@ -5,7 +5,7 @@
 #include "precomp.h"
 
 #include "RosKmdLogging.h"
-#include "Vc4Display.tmh"
+//#include "Vc4Display.tmh"
 
 #include "RosKmdGlobal.h"
 #include "RosKmdAllocation.h"

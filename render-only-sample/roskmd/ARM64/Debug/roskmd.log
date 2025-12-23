@@ -2,20 +2,52 @@
   precomp.cpp
   RosKmdAcpi.cpp
   RosKmdAdapter.cpp
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\RosKmdAcpi.cpp(45,57): warning C4996: 'ExAllocatePoolWithTag': ExAllocatePoolWithTag is deprecated, use ExAllocatePool2.
+  (compiling source file '/RosKmdAcpi.cpp')
+  
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\RosKmdAdapter.cpp(25,12): warning C4996: 'ExAllocatePoolWithTag': ExAllocatePoolWithTag is deprecated, use ExAllocatePool2.
+  (compiling source file '/RosKmdAdapter.cpp')
+  
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\RosKmdAdapter.cpp(783,49): warning C4996: 'ExAllocatePoolWithTag': ExAllocatePoolWithTag is deprecated, use ExAllocatePool2.
+  (compiling source file '/RosKmdAdapter.cpp')
+  
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\RosKmdAdapter.cpp(806,64): warning C4996: 'ExAllocatePoolWithTag': ExAllocatePoolWithTag is deprecated, use ExAllocatePool2.
+  (compiling source file '/RosKmdAdapter.cpp')
+  
   RosKmdContext.cpp
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\RosKmdContext.cpp(140,37): warning C4996: 'ExAllocatePoolWithTag': ExAllocatePoolWithTag is deprecated, use ExAllocatePool2.
+  (compiling source file '/RosKmdContext.cpp')
+  
   RosKmdDdi.cpp
   RosKmdDevice.cpp
   RosKmdGlobal.cpp
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\RosKmdGlobal.cpp(43,5): warning C4002: too many arguments for function-like macro invocation 'WPP_CLEANUP'
+  (compiling source file '/RosKmdGlobal.cpp')
+  
   RosKmdRapAdapter.cpp
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\RosKmdRapAdapter.cpp(35,12): warning C4996: 'ExAllocatePoolWithTag': ExAllocatePoolWithTag is deprecated, use ExAllocatePool2.
+  (compiling source file '/RosKmdRapAdapter.cpp')
+  
   RosKmdSoftAdapter.cpp
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\RosKmdSoftAdapter.cpp(11,12): warning C4996: 'ExAllocatePoolWithTag': ExAllocatePoolWithTag is deprecated, use ExAllocatePool2.
+  (compiling source file '/RosKmdSoftAdapter.cpp')
+  
   RosKmdUtil.cpp
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\RosKmdUtil.cpp(236,12): warning C4996: 'ExAllocatePoolWithTag': ExAllocatePoolWithTag is deprecated, use ExAllocatePool2.
+  (compiling source file '/RosKmdUtil.cpp')
+  
+C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\RosKmdUtil.cpp(256,12): warning C4996: 'ExAllocatePoolWithTag': ExAllocatePoolWithTag is deprecated, use ExAllocatePool2.
+  (compiling source file '/RosKmdUtil.cpp')
+  
   RosKmdPower.cpp
   RosKmdLogging.cpp
   Vc4Debug.cpp
   Vc4Display.cpp
   Generating code
   Finished generating code
-  roskmd.vcxproj -> C:\Users\Alastair\Documents\Visual Studio 2019\Projects\rosumd2\ARM64\Debug\roskmd.sys
+  roskmd.vcxproj -> C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\ARM64\Debug\roskmd.sys
   Done Adding Additional Store
-  Successfully signed: C:\Users\Alastair\Documents\Visual Studio 2019\Projects\rosumd2\ARM64\Debug\roskmd.sys
+  Successfully signed: C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\ARM64\Debug\roskmd.sys
+  
+  DrvCat task was skipped as there was no catalog file to process
   
