@@ -1,10 +1,10 @@
 ﻿  Building 'roskmd' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
   precomp.cpp
   RosKmdAcpi.cpp
-  RosKmdAdapter.cpp
 C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\RosKmdAcpi.cpp(45,57): warning C4996: 'ExAllocatePoolWithTag': ExAllocatePoolWithTag is deprecated, use ExAllocatePool2.
   (compiling source file '/RosKmdAcpi.cpp')
   
+  RosKmdAdapter.cpp
 C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\RosKmdAdapter.cpp(25,12): warning C4996: 'ExAllocatePoolWithTag': ExAllocatePoolWithTag is deprecated, use ExAllocatePool2.
   (compiling source file '/RosKmdAdapter.cpp')
   

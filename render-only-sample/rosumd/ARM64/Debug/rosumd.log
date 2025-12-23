@@ -1,7 +1,6 @@
 ﻿  precomp.cpp
   pixlib.cpp
   RosUmd.cpp
-  RosUmdAdapter.cpp
 C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\RosKmdLogging.h(266,17): warning C4100: 'format': unreferenced parameter
   (compiling source file '/RosUmd.cpp')
   
@@ -17,6 +16,7 @@ C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\RosKmdL
 C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\rosumd\RosUmd.cpp(29,13): warning C4003: not enough arguments for function-like macro invocation 'WPP_INIT_TRACING'
   (compiling source file '/RosUmd.cpp')
   
+  RosUmdAdapter.cpp
   RosUmdCommandBuffer.cpp
   RosUmdDevice.cpp
 C:\Users\ayush\source\repos\sidd-kishan\roscos\render-only-sample\roskmd\RosKmdLogging.h(266,17): warning C4100: 'format': unreferenced parameter
